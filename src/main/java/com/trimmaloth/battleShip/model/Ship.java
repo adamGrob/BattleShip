@@ -21,4 +21,8 @@ public class Ship {
     public boolean isDestroyed() {
         return destroyed;
     }
+
+    public Shipsegment[] getShipsegments() {
+        return shipsegments;
+    }
 }
