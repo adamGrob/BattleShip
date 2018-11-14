@@ -2,7 +2,7 @@ package com.trimmaloth.battleShip.model;
 
 public class Board {
 
-    int width, height;
+    private int width, height;
 
     public Board(int width, int height) {
         this.width = width;
