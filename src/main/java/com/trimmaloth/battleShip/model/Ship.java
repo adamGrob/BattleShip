@@ -10,12 +10,15 @@ public class Ship {
         this.shipsegments = shipsegments;
     }
 
-
     public void hitChecker() {
         int hitpoints = shipsegments.length;
         for (Shipsegment shipsegment: shipsegments) {
             if (shipsegment.isDestroyed()) hitpoints--;
         }
         if (hitpoints <= 0) destroyed = true;
+    }
+
+    public boolean isDestroyed() {
+        return destroyed;
     }
 }
