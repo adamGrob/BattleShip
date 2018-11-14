@@ -16,6 +16,10 @@ public class Player {
         shots = new ArrayList<>();
     }
 
+    public List<Ship> getShips() {
+        return ships;
+    }
+
     public void assignShip(Ship ship) {
         ships.add(ship);
     }
